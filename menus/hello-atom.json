@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Fetch hello-atom",
+        "command": "hello-atom:fetch"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "hello-atom",
+          "submenu": [
+            {
+              "label": "Fetch",
+              "command": "hello-atom:fetch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
